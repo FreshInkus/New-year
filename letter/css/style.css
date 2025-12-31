@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px white);
+}
+
+
+.container {
+  max-height: 1000px;
+  width: 500px;
+  background-image: url(../images/list.jpg);
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+.article {
+  padding: 5px 15px 0 15px;
+}
+
+.article-title {
+  font-family: Ithaca;
+  font-weight: 600;
+}
+
+.article-text {
+  font-family: Phobotech;
+  font-weight: 500;
+  letter-spacing: 1px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.decor-text {
+  font-size: 13px;
+}
+
+.decor-gif {
+  width: 450px;
+}
+
